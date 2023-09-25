@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Guess the Number!</h1>
+        <h4>(Between 1 and 20)</h4>
+        <div class="g-number">?</div>
+      </header>
+      <section class="flex">
+        <div class="left">
+          <p class="helper-text">Start on guessing...</p>
+          <p>Score: <span class="score">20</span></p>
+          <p>Highscore: <span class="high-score">0</span></p>
+        </div>
+        <div class="right">
+          <input type="number" class="number-input" />
+          <button class="btn guess">Guess</button>
+        </div>
+      </section>
+      <div><button class="btn again">Play Again</button></div>
+    </main>
+    <footer>
+      <div class="links">
+        <a href="https://www.instagram.com/yyazanalqaderi/">Instagram</a>
+        <a href="https://github.com/YznAlqadery">GitHub</a>
+      </div>
+      <p class="foot-p">&copy Yazan Alqadery. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
